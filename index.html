@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body class="body" >
+        <div class="formDiv">
+            <form>
+                <label for="firsttName" id="nameLabel">Enter Name:</label>
+                <input type="text" class="form" id="fName" value="" onchange="handleChange(event)"/>
+                <input class="add"type="button" value="enter" id="plus"></button>
+                <h2 class="add" id="counter">0</h2>
+            </form>
+        </div>
+        <div class="nav"> 
+            <ul>
+                <li><a href="default.asp">Home </a></li>
+                <li><a href="artistBio.html"id="list2">Artist Bio </a></li>
+                <li><a href="Contact.asp"id="list3">Contact </a></li>
+                <li><a href="Shop.asp" id="list">Shop </a></li>
+            </ul>
+        </div>
+        <div class="heading" id = "color">
+             <div class = "message">
+                <h1 id="message">Larissa Johnson Brown</h1>
+             </div>   
+        </div>
+        
+        <div class="ltGrey" onclick="portraitClick()" id = "portrait">
+        </div>    
+        <div class="ltGrey" id="sikkemaBrothers"></div>
+        <div class="ltGrey" id="antelopeIsland"></div>
+        <div class="ltGrey" id="andersonBrothers"></div>
+            
+
+        <div class="dkGrey" id="boysHedgehog"></div>
+        <div class="dkGrey" id="maya"></div>
+        <div class="dkGrey" id="steveOllieCollage"></div>
+        <div class="dkGrey" id="westheimerGirls"></div>
+           
+
+        <div class="putty" id="sofia"></div>
+        <div class="orange" id="rectangle" >
+            <h1 id="announcements">Announcements</h1>
+        </div>
+        
+            
+        <div class="blue" id= "landscape"></div>
+    <script src="app.js"></script>
+    </body>
+</html>
